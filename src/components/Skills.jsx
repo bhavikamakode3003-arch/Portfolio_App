@@ -18,12 +18,18 @@ function Skills() {
       skills: ["HTML5", "CSS3", "Bootstrap", "React.js"],
     },
     {
-      number: "03",
-      title: "Backend Development",
-      description:
-        "Developing application logic and integrating frontend applications with backend services.",
-      skills: ["Spring Boot", "REST APIs", "CRUD Operations"],
-    },
+  number: "03",
+  title: "Backend Development",
+  description:
+    "Developing backend logic, building REST APIs and implementing server-side functionality using Java and Spring Boot.",
+  skills: [
+    "Core Java",
+    "Spring Boot",
+    "REST APIs",
+    "CRUD Operations",
+    "Object-Oriented Programming (OOP)",
+  ],
+},
     {
       number: "04",
       title: "Database",

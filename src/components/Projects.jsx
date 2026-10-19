@@ -3,7 +3,7 @@ import "../Style/Projects.css";
 
 import coffeeProject from "../assets/images/coffee-project.jpg";
 import sponsorSyncProject from "../assets/images/sponsorsync-project.png";
-
+import careBridgeProject from "../assets/images/carebridge-project.png";
 function Projects() {
   const projects = [
     {
@@ -24,7 +24,7 @@ function Projects() {
         "https://github.com/bhavikamakode3003-arch/coffee-website",
 
       live:
-        "https://github.com/bhavikamakode3003-arch/coffee-website",
+        "https://coffee-website-livid-omega.vercel.app",
     },
 
     {
@@ -47,6 +47,29 @@ function Projects() {
       live:
         "https://github.com/bhavikamakode3003-arch/SponsorSync_App",
     },
+
+
+    {
+      title: "CareBridge",
+      category: "Full Stack Development",
+      image: careBridgeProject,
+
+      description:
+        "CareBridge is a healthcare web application designed to make healthcare services more accessible and convenient. It provides a user-friendly platform for users to access healthcare-related information and services.",
+
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "SQL",
+        "REST APIs",
+      ],
+
+      github: "https://github.com/bhavikamakode3003-arch",
+
+      live: "https://sunny-quietude-production-5641.up.railway.app",
+    },
+
   ];
 
   return (
@@ -76,9 +99,8 @@ function Projects() {
 
           {projects.map((project, index) => (
             <article
-              className={`project-card ${
-                index % 2 !== 0 ? "project-reverse" : ""
-              }`}
+              className={`project-card ${index % 2 !== 0 ? "project-reverse" : ""
+                }`}
               key={project.title}
             >
 
